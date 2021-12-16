@@ -63,17 +63,20 @@
 
 # file.close()
 
-lines = [1, 3, 6, 8]
-
-file = open('./data.txt', 'r')
-
-lineCounter = 1
-while True:
-    line = file.readline()
-    if lineCounter in lines:    print(file.readline())
-    else:   pass
-    lineCounter += 1
-    if line == '': break
 
 
-file.close()
+        # считать lines 
+# lines = [1, 3, 6, 8]
+
+# file = open('./data.txt', 'r')
+
+# lineCounter = 1
+# while True:
+#     line = file.readline()
+#     if lineCounter in lines:    print(file.readline())
+#     else:   pass
+#     lineCounter += 1
+#     if line == '': break
+
+
+# file.close()
